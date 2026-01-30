@@ -37,15 +37,23 @@ p {
 
 .btn {
     display: block;
-    margin: 25px auto 10px;
+    margin: 22px auto;
     padding: 18px;
     font-size: 17px;
     font-weight: bold;
-    background: linear-gradient(90deg,#00ff99,#00cc66);
-    color: #000;
     border-radius: 14px;
     text-decoration: none;
+}
+
+.primary {
+    background: linear-gradient(90deg,#00ff99,#00cc66);
+    color: #000;
     animation: pulse 1.3s infinite;
+}
+
+.secondary {
+    background: #1e88e5;
+    color: #fff;
 }
 
 @keyframes pulse {
@@ -54,16 +62,10 @@ p {
     100% {transform: scale(1);}
 }
 
-.notice {
-    margin-top: 15px;
+.note {
     font-size: 13px;
     color: #ffeb3b;
-}
-
-.arrow {
-    margin-top: 12px;
-    font-size: 13px;
-    color: #aaa;
+    margin-top: 10px;
 }
 </style>
 </head>
@@ -71,23 +73,31 @@ p {
 <body>
 
 <div class="card">
-    <h1>🎁 Daily Rewards Activated</h1>
+    <h1>🎁 Daily Rewards Unlocked</h1>
     <p>
-        Today’s exclusive reward is available for a limited time.<br>
-        No registration. No credit card.
+        Limited reward available today only.<br>
+        No registration required.
     </p>
 
-    <a class="btn" href="https://www.effectivegatecpm.com/xnjjff1ze?key=924033ee68f68761e82c7af5ed14c134">
-        🔓 UNLOCK TODAY’S BONUS
+    <!-- SMARTLINK (CUAN CPM) -->
+    <a class="btn primary"
+       href="https://www.effectivegatecpm.com/xnjjff1ze?key=924033ee68f68761e82c7af5ed14c134">
+       🔓 UNLOCK TODAY’S BONUS
     </a>
 
-    <div class="notice">
-        ⚠️ Important: Tap the ↗️ arrow on top to continue
+    <div class="note">
+        ⚠️ After opening, tap the ↗️ arrow on top to continue
     </div>
 
-    <div class="arrow">
-        If nothing happens, click the arrow ↗️ above to proceed
-    </div>
+    <!-- DIRECT CLICKBANK (NIAT BELI) -->
+    <a class="btn secondary"
+       href="https://1fd75bu6--meww56ycv3umw9oo.hop.clickbank.net">
+       💊 Skip & View AlphaTonic Directly
+    </a>
+
+    <p style="font-size:12px;opacity:.7">
+        Recommended for US / CA / AU users
+    </p>
 </div>
 
 </body>
