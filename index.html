@@ -1,99 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Daily Rewards Center</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Daily Rewards Center</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <style>
-    body {
-      margin: 0;
-      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-      font-family: Arial, sans-serif;
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      text-align: center;
-      padding: 20px;
-    }
-    .card {
-      background: #1b2a38;
-      padding: 28px;
-      border-radius: 16px;
-      max-width: 420px;
-      width: 100%;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
-    }
-    h1 {
-      margin-top: 0;
-      font-size: 26px;
-    }
-    p {
-      font-size: 15px;
-      line-height: 1.6;
-      color: #cfd8dc;
-    }
-    .btn {
-      display: block;
-      margin-top: 24px;
-      padding: 16px;
-      background: #2ecc71;
-      color: #000;
-      font-size: 16px;
-      font-weight: bold;
-      border-radius: 12px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-    .btn:hover {
-      background: #27ae60;
-      transform: scale(1.03);
-    }
-    .note {
-      margin-top: 14px;
-      font-size: 12px;
-      color: #90a4ae;
-    }
-  </style>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
 
-  <script>
-    function goHybrid() {
-      // 1) buka Smartlink Adsterra (CPM)
-      window.open(
-        "https://www.effectivegatecpm.com/xnjjff1ze?key=924033ee68f68761e82c7af5ed14c134",
-        "_blank"
-      );
+.card {
+    background: #0b2a3a;
+    border-radius: 18px;
+    padding: 28px;
+    max-width: 420px;
+    margin: 60px auto;
+    box-shadow: 0 20px 40px rgba(0,0,0,.6);
+}
 
-      // 2) setelah 7 detik, redirect ke ClickBank Alpha Tonic
-      setTimeout(function () {
-        window.location.href =
-          "https://1fd75bu6--meww56ycv3umw9oo.hop.clickbank.net";
-      }, 7000);
-    }
-  </script>
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 15px;
+    opacity: .9;
+    line-height: 1.6;
+}
+
+.btn {
+    display: block;
+    margin: 22px auto;
+    padding: 18px;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 14px;
+    text-decoration: none;
+}
+
+.primary {
+    background: linear-gradient(90deg,#00ff99,#00cc66);
+    color: #000;
+    animation: pulse 1.3s infinite;
+}
+
+.secondary {
+    background: #1e88e5;
+    color: #fff;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
+}
+
+.note {
+    font-size: 13px;
+    color: #ffeb3b;
+    margin-top: 10px;
+}
+</style>
 </head>
 
 <body>
 
-  <div class="card">
-    <h1>🎁 Daily Rewards Center</h1>
-
+<div class="card">
+    <h1>🎁 Daily Rewards Unlocked</h1>
     <p>
-      Check today’s rewards, exclusive offers, and special promotions.<br>
-      Free access. No registration required.
+        Limited reward available today only.<br>
+        No registration required.
     </p>
 
-    <!-- TOMBOL HYBRID -->
-    <a href="javascript:void(0)" class="btn" onclick="goHybrid()">
-      CHECK TODAY'S REWARD
+    <!-- SMARTLINK (CUAN CPM) -->
+    <a class="btn primary"
+       href="https://www.effectivegatecpm.com/xnjjff1ze?key=924033ee68f68761e82c7af5ed14c134">
+       🔓 UNLOCK TODAY’S BONUS
     </a>
 
     <div class="note">
-      Please wait a few seconds while we load today’s bonus.
+        ⚠️ After opening, tap the ↗️ arrow on top to continue
     </div>
-  </div>
+
+    <!-- DIRECT CLICKBANK (NIAT BELI) -->
+    <a class="btn secondary"
+       href="https://1fd75bu6--meww56ycv3umw9oo.hop.clickbank.net">
+       💊 Skip & View AlphaTonic Directly
+    </a>
+
+    <p style="font-size:12px;opacity:.7">
+        Recommended for US / CA / AU users
+    </p>
+</div>
 
 </body>
 </html>
