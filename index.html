@@ -1,35 +1,70 @@
-index.html
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Daily Rewards Center</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Loading...</title>
-
-  <script>
-    setTimeout(function(){
-      window.location.href = "https://otieu.com/4/10531421";
-    }, 1500);
-  </script>
-
   <style>
     body {
-      background:#0f172a;
-      color:white;
-      display:flex;
-      justify-content:center;
-      align-items:center;
-      height:100vh;
-      font-family:Arial;
-      text-align:center;
+      margin: 0;
+      background: #0f172a;
+      font-family: Arial, sans-serif;
+      color: #ffffff;
+      text-align: center;
+      padding: 30px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 25px;
+      border-radius: 14px;
+      max-width: 420px;
+      margin: 80px auto 0;
+      box-shadow: 0 10px 25px rgba(0,0,0,.4);
+    }
+    h2 {
+      margin-bottom: 10px;
+    }
+    p {
+      color: #cbd5f5;
+      line-height: 1.5;
+    }
+    button {
+      margin-top: 20px;
+      padding: 14px 22px;
+      font-size: 16px;
+      border: none;
+      border-radius: 10px;
+      background: #22c55e;
+      color: #000;
+      cursor: pointer;
+    }
+    button:hover {
+      opacity: .9;
+    }
+    .note {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #94a3b8;
     }
   </style>
 </head>
-
 <body>
-  <div>
-    <h3>⏳ Mohon tunggu...</h3>
-    <p>Proses sedang berjalan</p>
+
+  <div class="card">
+    <h2>🎁 Daily Rewards Center</h2>
+    <p>
+      Check today’s rewards, events, and bonus offers.<br>
+      Free access. No registration required.
+    </p>
+
+    <button onclick="window.location.href='https://otieu.com/4/10531421'">
+      CHECK TODAY'S REWARD
+    </button>
+
+    <div class="note">
+      Offers may vary by region and availability.
+    </div>
   </div>
+
 </body>
 </html>
