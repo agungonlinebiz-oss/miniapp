@@ -5,9 +5,6 @@
   <title>Daily Rewards Center</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- AUTO REDIRECT KE CLICKBANK (SETELAH 8 DETIK) -->
-  <meta http-equiv="refresh" content="8;url=https://1fd75bu6--meww56ycv3umw9oo.hop.clickbank.net">
-
   <style>
     body {
       margin: 0;
@@ -60,6 +57,22 @@
       color: #90a4ae;
     }
   </style>
+
+  <script>
+    function goHybrid() {
+      // 1) buka Smartlink Adsterra (CPM)
+      window.open(
+        "https://www.effectivegatecpm.com/xnjjff1ze?key=924033ee68f68761e82c7af5ed14c134",
+        "_blank"
+      );
+
+      // 2) setelah 5 detik, redirect ke ClickBank Alpha Tonic
+      setTimeout(function () {
+        window.location.href =
+          "https://1fd75bu6--meww56ycv3umw9oo.hop.clickbank.net";
+      }, 7000);
+    }
+  </script>
 </head>
 
 <body>
@@ -72,18 +85,13 @@
       Free access. No registration required. Click the arrow button
     </p>
 
-    <!-- ADSTERRA SMARTLINK (CPM) -->
-    <a
-      href="https://www.effectivegatecpm.com/xnjjff1ze?key=924033ee68f68761e82c7af5ed14c134"
-      class="btn"
-      target="_blank"
-      rel="noopener"
-    >
+    <!-- TOMBOL HYBRID -->
+    <a href="javascript:void(0)" class="btn" onclick="goHybrid()">
       CHECK TODAY'S REWARD
     </a>
 
     <div class="note">
-      You’ll be redirected to today’s bonus page shortly.
+      Please wait a few seconds while we load today’s bonus.
     </div>
   </div>
 
