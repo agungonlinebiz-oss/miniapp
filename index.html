@@ -4,65 +4,94 @@
   <meta charset="UTF-8">
   <title>Daily Rewards Center</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
     body {
       margin: 0;
-      background: #0f172a;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
       font-family: Arial, sans-serif;
       color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
       text-align: center;
-      padding: 30px;
+      padding: 20px;
     }
     .card {
-      background: #1e293b;
-      padding: 25px;
-      border-radius: 14px;
+      background: #1b2a38;
+      padding: 28px;
+      border-radius: 16px;
       max-width: 420px;
-      margin: 80px auto 0;
-      box-shadow: 0 10px 25px rgba(0,0,0,.4);
+      width: 100%;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.4);
     }
-    h2 {
-      margin-bottom: 10px;
+    h1 {
+      margin-top: 0;
+      font-size: 26px;
     }
     p {
-      color: #cbd5f5;
-      line-height: 1.5;
+      font-size: 15px;
+      line-height: 1.6;
+      color: #cfd8dc;
     }
-    button {
-      margin-top: 20px;
-      padding: 14px 22px;
-      font-size: 16px;
-      border: none;
-      border-radius: 10px;
-      background: #22c55e;
+    .btn {
+      display: block;
+      margin-top: 24px;
+      padding: 16px;
+      background: #2ecc71;
       color: #000;
-      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 12px;
+      text-decoration: none;
+      transition: 0.3s;
     }
-    button:hover {
-      opacity: .9;
+    .btn:hover {
+      background: #27ae60;
+      transform: scale(1.03);
     }
     .note {
-      margin-top: 15px;
+      margin-top: 14px;
       font-size: 12px;
-      color: #94a3b8;
+      color: #90a4ae;
     }
   </style>
+
+  <script>
+    function goHybrid() {
+      // 1) buka Smartlink Adsterra (CPM)
+      window.open(
+        "https://www.effectivegatecpm.com/xnjjff1ze?key=924033ee68f68761e82c7af5ed14c134",
+        "_blank"
+      );
+
+      // 2) setelah 7 detik, redirect ke ClickBank Alpha Tonic
+      setTimeout(function () {
+        window.location.href =
+          "https://1fd75bu6--meww56ycv3umw9oo.hop.clickbank.net";
+      }, 7000);
+    }
+  </script>
 </head>
+
 <body>
 
   <div class="card">
-    <h2>🎁 Daily Rewards Center</h2>
+    <h1>🎁 Daily Rewards Center</h1>
+
     <p>
-      Check today’s rewards, events, and bonus offers.<br>
+      Check today’s rewards, exclusive offers, and special promotions.<br>
       Free access. No registration required.
     </p>
 
-    <button onclick="window.location.href='https://otieu.com/4/10531421'">
+    <!-- TOMBOL HYBRID -->
+    <a href="javascript:void(0)" class="btn" onclick="goHybrid()">
       CHECK TODAY'S REWARD
-    </button>
+    </a>
 
     <div class="note">
-      Offers may vary by region and availability.
+      Please wait a few seconds while we load today’s bonus.
     </div>
   </div>
 
